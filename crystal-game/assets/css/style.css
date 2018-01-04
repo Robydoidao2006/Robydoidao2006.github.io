@@ -1,0 +1,19 @@
+
+
+.jumbotron{
+	background-color: blue; color: white;
+
+}
+
+
+.panel {
+	background-color: blue; color: white;
+	padding: 20px;
+	margin-top:20px;
+}
+
+.page-header {
+	background-color: blue; color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
