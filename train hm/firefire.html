@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rocket Train</title>
+  <!-- firebase link -->
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+  <!-- link for the rocket sign -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!-- link to moments -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+  <!-- CSS goes in here  -->
+  <style>
+
+  .jumbotron{
+       background-color: #20315A ; color: white;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center"><strong><i class="fa fa-rocket "></i> Rocket Train</strong></h1>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <br>
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong><i class="fa  fa-list-alt"></i> Add Train</strong></h3>
+          </div>
+          <div class="panel-body">
+
+            <form role="form">
+              <!-- train name input -->
+              <div class="form-group">
+                <label for="train-input">Train Name:</label>
+                <input type="text" class="form-control" id="trainId">
+              </div>
+              <!-- destination input -->
+               <div class="form-group">
+                <label for="destination-input">Destination:</label>
+                <input type="text" class="form-control" id="destinationId">
+              </div>
+              <!-- first train input -->
+              <div class="form-group">
+                <label for="frequency-input">Frequency:</label>
+                <input type="text" class="form-control" id="frequencyId">
+              </div>
+              <!-- frenquency input -->
+              <div class="form-group">
+                <label for="first-input">First Train Time:</label>
+                <input type="text" class="form-control" id="firstTrainId">
+              </div>
+
+              <!-- submit button -->
+              <button type="submit" class="btn btn-default" id="button"></i> Submit</button>
+              
+
+              <p id="demo"></p>
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- new train schedule -->
+    <div class="row">
+      <div class="col-sm-12">
+        <br>
+         <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong><i class="fa fa-table"></i> Current Train Schedule </strong></h3>
+          </div>
+
+          <div class="panel-body">
+           <table class=" table table-houver" id="trainTable">
+
+            <tr>
+              <th>Train Name:</th>
+              <th>Destination:</th>
+              <th>Frequency(min)</th>
+              <th>Next Arrival:</th>
+              <th>Minutes Away:</th>
+            </tr>
+
+           </table>
+     
+            <!-- <h2 id="trainDisplay"></h2> -->
+            <!-- <h2 id="destinationDisplay"></h2> -->
+            <!-- <h2 id="firstDisplay"></h2> -->
+            <!-- <h2 id="frequencyDisplay"></h2> -->
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+
+        <hr>
+        <h5 class="text-center"><small>CopyRight ®Team</small></h5>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- Code to the JavaScript File -->
+  <script src="Code.js"></script>
+
+</body>
+
+</html>
