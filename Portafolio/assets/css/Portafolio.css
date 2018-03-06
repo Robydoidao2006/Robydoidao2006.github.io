@@ -1,0 +1,137 @@
+/*---------------*/
+/*PORTAFOLIO PAGE*/
+/*---------------*/
+
+/*-----------------------------------*/
+/*------- Beggining of header -------*/
+/*-----------------------------------*/
+
+/*conianer that holds the header*/
+#firstbox {
+    margin:20px 20px 0 20px;
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 40px;
+    text-align: center;
+
+}
+
+/* Style each tab content individually */ 
+
+#Portafolio {
+    background-color:red;
+    
+}
+
+/*-----------------------------------*/
+/*--------- End of header -----------*/
+/*-----------------------------------*/
+/*-------- Beggining of body --------*/
+/*-----------------------------------*/
+
+body {
+
+}
+
+img {
+    float : left;
+    width: 150px;
+    margin: 100px 20px 20px 80px;
+    color: red;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.textbox {
+    margin: 110px 40px 0px 40px;
+    min-height: 200px;
+    border-style: solid;
+    border-style: double;
+    border-color: red;
+    border-width: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-family:courier;
+}
+
+.copy{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    
+    /*working on this*/
+    margin-top: 17%;
+    /*///////////*/
+}
+
+/*-----------------------------------*/
+/*----------- End of body -----------*/
+/*-----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Portafolio Page</title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/Portafolio.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- //////////////////// -->
+<!--  Beggining of header -->
+<!-- //////////////////// -->
+
+<!-- container to hold the header -->
+<div class="container" id=firstbox>
+
+	<div id="Home" class="tabcontent">
+  		<h1>Welcome to my Home page</h1>
+  			<p>Home sweet home.</p> 
+	</div>
+
+	<div id="Portafolio" class="tabcontent">
+		<h1>My Portafolio page</h1>
+  			<p>Robert Fialho - Full stack Developer</p>
+	</div>
+
+	<div id="Biography" class="tabcontent">
+  		<h1>Biography</h1>
+ 			<p>Hum... sounds intriguing.</p>
+	</div>
+
+	<div id="Projects" class="tabcontent">
+  		<h1>My Projects</h1>
+  			<p>Projects made during my bootcamp at UCF.</p>
+	</div>
+	
+	<div id="Contact" class="tabcontent">
+  		<h1>Contact me</h1>
+  			<p>Questions or suggestion ? Please, don't hesitate to contact me .</p>
+	</div>
+
+<!-- Button links -->
+
+<form action="file:///Users/robertfialho/Desktop/Portafolio/Home.html">
+    <button class="tablink" onclick="openCity('Home', this, 'green')">Home</button>
+</form>
+
+<button class="tablink" onclick="openCity('Portafolio', this, 'red')" id="defaultOpen">Portafolio</button>
+
+<form action="file:///Users/robertfialho/Desktop/Portafolio/Biography.html">
+    <button class="tablink" onclick="openCity('Biography', this, 'blue')">Biography</button>
+</form>
+
+<form action="file:///Users/robertfialho/Desktop/Portafolio/Projects.html">
+    <button class="tablink" onclick="openCity('Projects', this, 'orange')">My Projects</button>
+
+</form>
+
+<form action="file:///Users/robertfialho/Desktop/Portafolio/Contact.html">
+   <button class="tablink" onclick="openCity('Contact', this, 'purple')">Contact</button>
+</form>
+
+
+</div>
+
+<!-- link to the JS file  -->
+<script src="assets/js/app.js"></script>
+
+<!-- ////////////// -->
+<!-- End of header  -->
+<!-- ////////////// -->
+
+</head>
+
+<body>
+
+	
+<img src="assets/images/mypic.jpg" alt="mypic">
+
+
+<div><p class="textbox"><br>
+
+        Robert Fialho is a 27 years old man, who was born in Plantation Florida on October 19, 1990.
+    When he was 3 years old, his parents got divorce, and he ended up moving with his dad and sister in Venezuela.
+    where he grew up. He managed to learn Portuguese at home, because his dad and stepmother spoke it all the time, 
+    and he learned Spanish in school. At the age of 14, his dad and stepmother got divorce and they ended up moving 
+    to Brasil. He graduated from high school in Brasil in 2010. After that he moved back to the United States. The little English he 
+    knew from watching movies and playing video games was not enough to get things done in the USA. He ended up taking an intensive 
+    English course at Florida State University where he spent a year to learn the language. One day he got a call from his older
+    brother, he told him he was thinking on opening a business on building mini houses in Portland, OR. That's when he moved 
+    Northwest to try something different. The business did not work, and he disliked the cold weather and so he moved back to 
+    Florida. He found out about a Full stack bootcamp program and that got his attention, and so he applied for the course november 2017.</p><br><br></div>
+
+
+<div class="copy"><p> Roberts Portafolio Page. All Rights Reserved &copy;</p> 
+</div>
+
+		
+
+<!-- background image -->
+<div class="landscape">
+	<body background="assets/images/dark.jpg">
+</div>
+
+</body>
+</html>
